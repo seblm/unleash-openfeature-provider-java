@@ -19,9 +19,25 @@
 
   <dependencies>
     <dependency>
+      <groupId>dev.openfeature</groupId>
+      <artifactId>javasdk</artifactId>
+      <version>0.0.2</version>
+    </dependency>
+    <dependency>
+      <groupId>io.getunleash</groupId>
+      <artifactId>unleash-client-java</artifactId>
+      <version>5.1.0</version>
+    </dependency>
+    <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter</artifactId>
       <version>5.8.2</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-simple</artifactId>
+      <version>1.7.22</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
