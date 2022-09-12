@@ -13,25 +13,25 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>8</maven.compiler.source>
-    <maven.compiler.target>8</maven.compiler.target>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
   </properties>
 
   <dependencies>
     <dependency>
       <groupId>dev.openfeature</groupId>
       <artifactId>javasdk</artifactId>
-      <version>0.0.2</version>
+      <version>0.1.1</version>
     </dependency>
     <dependency>
       <groupId>io.getunleash</groupId>
       <artifactId>unleash-client-java</artifactId>
-      <version>5.1.0</version>
+      <version>6.0.1</version>
     </dependency>
     <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter</artifactId>
-      <version>5.8.2</version>
+      <version>5.9.0</version>
       <scope>test</scope>
     </dependency>
     <dependency>
